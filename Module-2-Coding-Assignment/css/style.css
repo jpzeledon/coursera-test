@@ -1,0 +1,162 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+}
+h1 {
+  margin-bottom: 15px;
+
+
+}
+h2{
+  top: 50.9%;
+  border: 1px solid black;
+  background-color: #444444; /* Grey */
+  padding: 10px;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 50px;
+  overflow: auto;
+ } 
+
+#content {
+
+  font-size: 13px;
+  
+}
+
+
+p{
+  text-align: center;
+  top: 40px;
+  width: 10%;
+  height: 23px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  background-clip: content-box; 
+  position: absolute;
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: bold;
+  color: #CC0033; /* red */
+
+   
+
+}
+
+
+
+#p2 {
+  background-color: #DEB887; /* Burlywood  */
+
+  left: 21.9%;
+}
+#p3 {
+  background-color: #5F9EA0; /* Cadet Blue */
+
+  left: 54.8%;
+}
+#p4 {
+  background-color: #FFCC00; /* Yellow */
+
+  left: 87.7%;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+ 
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+    position: relative;
+    top: -448px;
+    width: 83.33%;
+    left: 20.9%;
+  }
+  .col-md-10 {
+    position: relative;
+    top: -448px;
+    width: 98%;
+    left: 34%;
+  }
+  .col-md-11 {
+    position: relative;
+    width: 125%;
+    top: -228px;
+    left: -27.2%;
+   
+  }
+  .col-md-12 {
+    width: 100%;
+    top: 40%;
+
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7 {
+    
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    position: relative;
+    top: -628px;
+    left: 34.6%;
+    width: 190%;
+   
+  }
+  .col-sm-3 {
+    position: relative;
+    top: -428px;
+    left: -54%;
+    width: 230%;
+   
+  }
+  .col-sm-4 {
+    position: relative;
+    top: -228px;
+    left: -90.5%;
+    width: 190%;
+  }
+}
+/* By José Pablo Zeledón Sánches */
