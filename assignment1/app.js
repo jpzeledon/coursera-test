@@ -8,9 +8,9 @@ function LunchCheckController ($scope,
 $scope.totalValue = " ";
 
 $scope.sayMessage = function () {
-	var text = document.getElementById("lunch-menu").value;
+	var text = $scope.lunchMenu;
 	var coma = ',';
-	if (text=="") 
+	if (!$scope.lunchMenu) 
 	{
 		$scope.totalValue = "Please enter data first"
 	}
@@ -34,25 +34,6 @@ function splitString(stringToSplit, separator) {
 
 
 
-// (function () {
-// 'use strict';
-
-// angular.module('MsgApp', [])
-// .controller('MsgController', MsgController);
-
-// MsgController.$inject = ['$scope'];
-// function MsgController($scope) {
-//   $scope.name = "Yaakov";
-//   $scope.stateOfBeing = "hungry";
-
-//   $scope.sayMessage = function () {
-//     return "Yaakov likes to eat healthy snacks at night!";
-//   };
-
-//   $scope.feedYaakov = function () {
-//     $scope.stateOfBeing = "fed";
-//   };
-// }
 
 })();
 
@@ -63,4 +44,3 @@ function splitString(stringToSplit, separator) {
 
 
 
-// })();
